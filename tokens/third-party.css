@@ -1,0 +1,10 @@
+/* Third-party marks (v2.1). Network and wallet colours belong to their owners, not to Unera.
+   Use them only inside the logo or chip of that network or wallet, never as UI colour. */
+:root {
+  --brand-ext-ethereum: #627eea;
+  --brand-ext-base: #0052ff;
+  --brand-ext-polygon: #8247e5;
+  --brand-ext-metamask: #f6851b;
+  --brand-ext-metamask-dark: #e27625;
+  --brand-ext-google-blue: #4285f4;
+}
