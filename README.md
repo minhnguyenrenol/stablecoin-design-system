@@ -1,4 +1,4 @@
-# Unera Stablecoin design system (v2.1, public review copy)
+# Unera Stablecoin design system (public review copy)
 
 Live: https://minhnguyenrenol.github.io/stablecoin-design-system/
 
@@ -10,7 +10,6 @@ This is the design system for one of Unera's three products. Unera's products ar
 - `tokens/` and `styles.css`: colour, type, spacing and surface tokens
 - `components/`: React components with type definitions, built into `_ds_bundle.js` by `tools/bundle.mjs` in the private source
 - `guidelines/`: specimen cards
-- `AUDIT-v2.1.md`: what the 28 Oct 2026 audit found and what changed
 
 ## How this copy differs from the source
 

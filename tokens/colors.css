@@ -54,7 +54,7 @@
     /* ── Financial semantics (money direction — never a brand accent) ── */
     --fin-up:            #1a7a5e;
     --fin-up-bg:         color-mix(in srgb, var(--fin-up) 12%, var(--brand-white));
-    --fin-down:          #a5536b;  /* v2.1: text-safe; #ab5770 was 4.46:1 on --surface-page */
+    --fin-down:          #a5536b;  /* text-safe red, 4.5:1 or more on --surface-page */
     --fin-down-bg:       color-mix(in srgb, var(--brand-red) 12%, var(--brand-white));
     --fin-neutral:       #6b9090;
     --fin-neutral-bg:    rgba(107, 144, 144, 0.10);
@@ -63,7 +63,7 @@
     --success:           var(--fin-up);
     --warning:           #b8862f;
     --warning-bg:        color-mix(in srgb, var(--warning) 16%, var(--brand-white));
-    --error:             var(--fin-down);  /* v2.1 */
+    --error:             var(--fin-down);  /* same text-safe red */
     --error-bg:          color-mix(in srgb, var(--brand-red) 12%, var(--brand-white));
 
     /* ── Proof-of-Reserve composition (asset classes — fixed) ───── */
@@ -75,7 +75,7 @@
     /* ── Text & borders (Apple) ─────────────────────────────────── */
     --text-primary:      #1d1d1f;
     --text-secondary:    #6e6e73;
-    --text-tertiary:     var(--text-secondary);  /* v2.1: was referenced by NotificationCenter and QuoteCard but never defined */
+    --text-tertiary:     var(--text-secondary);  /* used by NotificationCenter and QuoteCard */
     --text-on-dark:      #ffffff;
     --border-subtle:     rgba(0, 0, 0, 0.10);
     --border-strong:     #1d1d1f;
